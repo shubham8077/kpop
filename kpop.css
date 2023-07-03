@@ -1,0 +1,233 @@
+* {
+    margin: 0 0;
+    padding: 0 0;
+}
+
+body {
+    background: linear-gradient(130deg, rgb(121, 19, 247), #df44fb);
+  
+}
+
+header {
+
+    text-align: center;
+    font-size: xx-large;
+    color: rgb(18, 172, 249);
+    text-shadow: 2px 2px 1px rgb(251, 12, 232);
+    background-color: rgba(0, 0, 0, 0.803);
+    height: 80px;
+    width: 100%;
+    margin: 0px;
+    border: 5px groove lawngreen;
+}
+
+nav {
+    display: flex;
+    gap: 40%;
+}
+
+.top {
+    position: absolute;
+    right: 10px;
+    top: 5px;
+}
+
+.top {
+    position: fixed;
+}
+
+#menu {
+
+
+    margin: 15px;
+    width: 50px;
+    height: 50px;
+    font-weight: bolder;
+}
+
+.items {
+    width: 140px;
+    background-color: rgba(0, 0, 0, 0.711);
+    padding: 5px;
+    border-radius: 10px;
+}
+
+
+/*INTRO*/
+
+.intro {
+    text-align: center;
+    margin: 30px 10px;
+    padding: 10px;
+    background-image: linear-gradient(45deg, rgb(250, 10, 150), rgb(24, 108, 252));
+    font-size: xx-large;
+    color: rgb(246, 239, 235);
+    border: 5px ridge white;
+    border-radius: 20px;
+    animation: clr 2s ease-in-out infinite;
+}
+
+@keyframes clr {
+    0% {
+        background-image: linear-gradient(45deg, rgb(129, 202, 3), rgb(4, 177, 65));
+    }
+
+    50% {
+        background-image: linear-gradient(45deg, rgb(224, 132, 3), rgb(233, 3, 3));
+    }
+
+    100% {
+        background-image: linear-gradient(45deg, rgb(24, 108, 252), rgb(250, 10, 150));
+    }
+}
+
+.gbt {
+    display: flex;
+    justify-content: center;
+}
+
+.grp button {
+    background-color: sandybrown;
+    color: black;
+    font-weight: bolder;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+ 
+}
+
+.grp button:hover {
+    display: block;
+    background-color: black;
+    color: white;
+    font-weight: bolder;
+    width: 120px;
+    height: 40px;
+    box-shadow: 6px 6px 4px white;
+}
+
+.grpbt {
+
+    margin: 10px;
+    height: 50px;
+    width: 800px;
+    background-color: transparent;
+    color: white;
+    font-weight: bolder;
+    border-radius: 15px;
+    box-shadow: 6px 6px 4px white;
+}
+
+.grpbt:hover {
+    background-image: linear-gradient(70deg, grey, white);
+    box-shadow: 6px 6px 4px black;
+    color: black;
+}
+
+.box {
+    background-image: linear-gradient(35deg, mediumspringgreen, rgb(235, 248, 43));
+    width: 600px;
+    margin: 35px;
+    padding: 20px;
+    border: 5px solid chartreuse;
+    border-radius: 10px;
+    box-shadow: -16px -12px 4px rgb(28, 28, 1);
+    background-image: url("bkgrnd.jpg");
+    background-repeat: repeat-y;
+    background-size: cover;
+    color:white;
+    text-shadow: 3px 2px 1px black;
+}
+
+
+
+.box:hover{
+    width: 900px;
+}
+
+
+
+
+.box:hover #img1{
+    width: 900px;
+}
+
+#img1
+{
+    background-image: url("bts.jpg");
+    background-size: cover;
+    width: 600px;
+    height: 400px;
+    border: 4px solid black;
+    border-radius: 8px;
+}
+
+
+.box:hover #img2{
+    width: 900px;
+}
+
+#img2
+{
+    background-image: url("exo-k.jpg");
+    background-size: cover;
+    width: 600px;
+    height: 400px;
+    border: 4px solid black;
+    border-radius: 8px;
+}
+
+.box:hover #img3{
+    width: 900px;
+}
+
+#img3
+{
+    background-image: url("got7.jpg");
+    background-size: cover;
+    width: 600px;
+    height: 400px;
+    border: 4px solid black;
+    border-radius: 8px;
+}
+
+.box:hover #img4{
+    width: 900px;
+}
+
+#img4
+{
+    background-image: url("blackpink.jpg");
+    background-size: cover;
+    width: 600px;
+    height: 400px;
+    border: 4px solid black;
+    border-radius: 8px;
+}
+
+.box:hover #img5{
+    width: 900px;
+}
+
+#img5
+{
+    background-image: url("straykids.jpg");
+    background-size: cover;
+    width: 600px;
+    height: 400px;
+    border: 4px solid black;
+    border-radius: 8px;
+}
+
+.nm {
+    text-align: center;
+}
+
+
+
+footer
+{
+    color: white;
+    background-color: black;
+    padding: 10px;
+}
